@@ -1,5 +1,4 @@
-function scream(text) {
+module.exports = function (text) {
+  // don't need a name of func annonyous func.
   return text.toUpperCase();
-}
-
-module.exports = scream;
+};
