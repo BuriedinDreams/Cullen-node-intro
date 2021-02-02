@@ -9,3 +9,4 @@ const peeps = [
 // this is sending over peepsArray
 // peeps will be the reutrn value of require('./cullenites.js)
 module.exports = peeps;
+// module is another word for file.
