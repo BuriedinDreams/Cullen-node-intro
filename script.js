@@ -4,6 +4,9 @@ let cullenites = require('./cullenites.js'); // we can drop the .js if we so cho
 console.log('instructor is', cullenites.Teacher);
 console.log('students are ', cullenites.students);
 
+cullenites.addStudent('Zack');
+cullenites.addStudent('Tacos');
+
 let favNum = require('./myFavoriteNum'); // need the ./ or else the require will not work.
 console.log('my favorite num is:', favNum);
 
